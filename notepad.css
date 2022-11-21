@@ -1,0 +1,51 @@
+h1 {
+    padding-top: 40px;
+    font-size: 45px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    padding: 15%;
+    padding-top: 0;
+    height: 100vh;
+}
+
+.side {
+    margin-left: 0;
+}
+
+button {
+    margin: 10px;
+    border-color: #957dad !important;
+    color: #888888 !important;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    background-color: #fec8d8 !important;
+}
+
+textarea {
+    padding-inline-start: 5px;
+    font-size: 36px;
+    padding: 3%;
+    padding-left:3%;
+    border-color: #aa9eb536;
+    border-width: thick;
+}
+
+.flex-box {
+    padding-top: 40px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    opacity:0.5;
+    
+}
+
+body{
+background-image: url("https://cdn.discordapp.com/attachments/1043567649663242331/1043714663852019772/notepad.png");
+background-size: 100%;
+}

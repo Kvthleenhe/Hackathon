@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: transparent;
+}
+
+.time{
+    color: #000;
+    font-family:  'Times New Roman',  Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+}

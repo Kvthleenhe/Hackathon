@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+
+
+p{
+  font-size: 35px;
+}
+
+ul{
+  font-size: 40px;
+}
+
+header{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+}
+
+
+.intro{
+    background-image: url("https://cdn.discordapp.com/attachments/1043567649663242331/1043630532707229766/home_screen.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 103vh;
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+ }
+ nav img{
+     width: 150px
+ }
+ .nav-links{
+     flex: 1;
+     text-align: right;
+ }
+ .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+ .nav-links ul li a{
+     color: rgb(248, 248, 248);
+     text-decoration: none;
+     font-size: 20px;
+ }
+ .nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: rgb(255, 255, 255);
+     display:block;
+     margin: auto;
+     transition: 0.5;
+ }
+ .nav-links ul li:hover::after{
+     width: 100%;
+ }
+ .text-box{ 
+     width: 100%;
+     color:rgb(0, 0, 0);
+     position: absolute;
+     padding-top: 300px;
+     text-align: center;
+     align-content: center;
+}
+.text-box h1{
+    font-size: 80px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px 34px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap%22");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+section .invite{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 1000px;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-top: 200px;
+}
+.left {
+  width: 50%;
+  height: 600px;
+  background: url(https://socialmediaweek.org/wp-content/blogs.dir/1/files/fb-events.jpg)
+    no-repeat center / cover;
+  border-radius: 8px;
+}
+.right {
+    width: 50%;
+    min-height: 400px;
+    background-color: #303137;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -150px;
+ }
+ .right p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px; 
+}
+@media only screen and (max-width: 768px){
+  .container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .left {
+    width: 100%;
+    height: 400px;
+  }
+  .right {
+    width: 90%;
+    margin: 0;
+    margin-top: 100px;
+}
+}
+.gallery {
+    background-color: #e6fdff;
+  }
+
